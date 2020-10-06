@@ -40,12 +40,10 @@
   "dependencies": {
     "compression": "^1.7.3",
     "express": "^4.16.4",
-    "express-session": "^1.15.1",
     "history": "^4.9.0",
     "morgan": "^1.9.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-redux": "^7.0.1",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
@@ -63,7 +61,6 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.0",
-    "axios-mock-adapter": "^1.16.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "chai": "^4.2.0",
@@ -81,7 +78,6 @@
     "npm-merge-driver": "^2.3.5",
     "prettier": "1.11.1",
     "react-test-renderer": "^16.4.2",
-    "redux-devtools-extension": "^2.13.5",
     "simple-git": "^1.121.0",
     "supertest": "^4.0.2",
     "webpack": "^4.16.4",
