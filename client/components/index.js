@@ -5,3 +5,7 @@
  */
 export {default as Navbar} from './navbar'
 export {default as Home} from './home'
+export {default as About} from './about'
+export {default as Work} from './work'
+export {default as Photos} from './photos'
+export {default as MsgMe} from './msgme'
