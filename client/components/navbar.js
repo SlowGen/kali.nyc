@@ -2,26 +2,26 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Navbar = () => (
-  <div>
-    <Link to="/home">
-      <img src="images/logo-nav.png" />
-    </Link>
-    <nav>
-      <div>
+  <div id="bar">
+    <nav className="navlinks">
+      <div className="navdiv">
         <Link to="/home">
-          <img src="images/home.png" />
+          <img className="navlogo" src="images/banner.png" />
+        </Link>
+        <Link to="/home">
+          <img className="navimg" src="images/home.png" />
         </Link>
         <Link to="/about">
-          <img src="images/about.png" />
+          <img className="navimg" src="images/about.png" />
         </Link>
         <Link to="/work">
-          <img src="images/work.png" />
+          <img className="navimg" src="images/work.png" />
         </Link>
         <Link to="/photos">
-          <img src="images/photos.png" />
+          <img className="navimg" src="images/photos.png" />
         </Link>
         <Link to="/msgme">
-          <img src="images/msgme.png" />
+          <img className="navimg" src="images/msgme.png" />
         </Link>
       </div>
     </nav>
