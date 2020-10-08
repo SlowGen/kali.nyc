@@ -1,21 +1,17 @@
 import React, {useState} from 'react'
-import {Box, Card, Heading, Text} from 'rebass'
+import {Link} from 'react-router-dom'
+import {Box, Card, Heading, Text, Image, Flex} from 'rebass'
 
 export const AboutFull = () => {
-  const [boxWidth, setBoxWidth] = useState(256)
-
-  const title = 'Welcome!'
-  const description = 'About-FULL'
+  const title = 'About!'
+  const description =
+    'About-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULL'
   return (
-    <Box
-      width={boxWidth}
-      onMouseEnter={() => setBoxWidth(512)}
-      onMouseLeave={() => setBoxWidth(256)}
-    >
+    <Box>
       <Card
         className="card"
         sx={{
-          backgroundColor: 'lightgray',
+          backgroundColor: 'darkgray',
           p: 1,
           borderRadius: 6,
           boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
@@ -31,30 +27,32 @@ export const AboutFull = () => {
 }
 
 export const AboutMini = () => {
-  const [boxWidth, setBoxWidth] = useState(256)
+  const [boxWidth, setBoxWidth] = useState()
 
-  const title = 'Welcome!'
-  const description = 'About-MINI'
   return (
     <Box
+      justifyContent="right"
       width={boxWidth}
-      onMouseEnter={() => setBoxWidth(512)}
-      onMouseLeave={() => setBoxWidth(256)}
+      onMouseEnter={() => setBoxWidth(200)}
+      onMouseLeave={() => setBoxWidth()}
     >
-      <Card
-        className="card"
-        sx={{
-          backgroundColor: 'lightgray',
-          p: 1,
-          borderRadius: 6,
-          boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-        }}
-      >
-        <Box px={2}>
-          <Heading as="h3">{title}</Heading>
-          <Text fontSize={0}>{description}</Text>
+      <Flex>
+        <Box>
+          <Card
+            className="card"
+            sx={{
+              backgroundColor: '#000925',
+              p: 1,
+              borderRadius: 6,
+              boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
+            }}
+          >
+            <Link to="/about">
+              <Image src="images/about.png" />
+            </Link>
+          </Card>
         </Box>
-      </Card>
+      </Flex>
     </Box>
   )
 }
