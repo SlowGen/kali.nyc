@@ -1,37 +1,48 @@
 import React, {useState} from 'react'
-import {Box, Card, Image, Heading, Text} from 'rebass'
+import {Box, Card, Flex, Heading, Text} from 'rebass'
+
+import {
+  HomeFull,
+  AboutMini,
+  WorkMini,
+  PhotosMini,
+  MsgMeMini
+} from '../components'
 
 /**
  * COMPONENT
  */
 export const Home = () => {
-  const images = 'images/logo-nav.png'
-  const title = 'Welcome!'
-  const description = 'This is the home page'
-
-  const [boxWidth, setBoxWidth] = useState(256)
-
   return (
-    <Box
-      width={boxWidth}
-      onMouseEnter={() => setBoxWidth(512)}
-      onMouseLeave={() => setBoxWidth(256)}
-    >
-      <Card
-        className="card"
-        sx={{
-          backgroundColor: 'lightgray',
-          p: 1,
-          borderRadius: 6,
-          boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-        }}
-      >
-        <Image src={images} />
-        <Box px={2}>
-          <Heading as="h3">{title}</Heading>
-          <Text fontSize={0}>{description}</Text>
+    <Box>
+      <Flex justifyContent="center">
+        <Box width={1 / 5}>
+          {/* left column */}
+          <Flex flexDirection="column">
+            <Box width={1} px={1} py={2}>
+              <AboutMini />
+            </Box>
+            <Box width={1} px={1} py={2}>
+              <PhotosMini />
+            </Box>
+          </Flex>
+          {/* middle column */}
         </Box>
-      </Card>
+        <Box width={3 / 5} px={3} py={1} justifyContent="center">
+          <HomeFull />
+        </Box>
+        <Box width={1 / 5}>
+          {/* right column */}
+          <Flex flexDirection="column">
+            <Box width={1} px={1} py={2}>
+              <WorkMini />
+            </Box>
+            <Box width={1} px={1} py={2}>
+              <MsgMeMini />
+            </Box>
+          </Flex>
+        </Box>
+      </Flex>
     </Box>
   )
 }
