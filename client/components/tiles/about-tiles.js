@@ -1,25 +1,22 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import {Box, Card, Heading, Text, Image, Flex} from 'rebass'
+import {Box, Card, Image, Flex} from 'rebass'
+import {AboutContent} from '../../components'
 
 export const AboutFull = () => {
-  const title = 'About!'
-  const description =
-    'About-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULLAbout-FULL'
   return (
     <Box>
       <Card
         className="card"
         sx={{
-          backgroundColor: 'darkgray',
+          backgroundColor: '#242939',
           p: 1,
           borderRadius: 6,
           boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
         }}
       >
         <Box px={2}>
-          <Heading as="h3">{title}</Heading>
-          <Text fontSize={0}>{description}</Text>
+          <AboutContent />
         </Box>
       </Card>
     </Box>
