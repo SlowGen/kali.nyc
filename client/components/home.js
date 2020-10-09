@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {Box, Card, Flex, Heading, Text} from 'rebass'
+import React from 'react'
+import {Box, Flex} from 'rebass'
 
 import {
   HomeFull,
