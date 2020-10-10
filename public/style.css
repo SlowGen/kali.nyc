@@ -6,6 +6,11 @@ body {
 
 a {
   text-decoration: none;
+  color: azure;
+}
+
+a:visited {
+  color: azure;
 }
 
 label {

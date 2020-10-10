@@ -3,7 +3,6 @@ import {Box, Flex} from 'rebass'
 
 import {
   MsgMeFull,
-  HomeMini,
   AboutMini,
   WorkMini,
   BlogMini,
@@ -21,9 +20,6 @@ export const MsgMe = () => {
         <Box justifyContent="right" width={1 / 8}>
           {/* left column */}
           <Flex flexDirection="column">
-            <Box width={1} px={1} py={2}>
-              <HomeMini />
-            </Box>
             <Box width={1} px={1} py={2}>
               <AboutMini />
             </Box>
