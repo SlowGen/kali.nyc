@@ -7,7 +7,7 @@ const Navbar = () => (
     <Flex justifyContent="center">
       <nav className="navlinks">
         <Link to="/home">
-          <img className="navlogo" src="images/longbanner.png" />
+          <img className="navlogo" src="images/banner-ani.gif" />
         </Link>
       </nav>
     </Flex>
