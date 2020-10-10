@@ -6,6 +6,7 @@ import {
   HomeMini,
   AboutMini,
   WorkMini,
+  BlogMini,
   PhotosMini,
   MsgMeMini
 } from '../components'
@@ -28,6 +29,9 @@ export const MsgMe = () => {
             </Box>
             <Box width={1} px={1} py={2}>
               <WorkMini />
+            </Box>
+            <Box width={1} px={1} py={2}>
+              <BlogMini />
             </Box>
             <Box width={1} px={1} py={2}>
               <PhotosMini />

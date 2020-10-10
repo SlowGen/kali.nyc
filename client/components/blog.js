@@ -2,7 +2,7 @@ import React from 'react'
 import {Box, Flex} from 'rebass'
 
 import {
-  WorkFull,
+  BlogFull,
   HomeMini,
   AboutMini,
   WorkMini,
@@ -14,7 +14,7 @@ import {
 /**
  * COMPONENT
  */
-export const Work = () => {
+export const Blog = () => {
   return (
     <Box>
       <Flex justifyContent="center">
@@ -43,11 +43,11 @@ export const Work = () => {
           {/* middle column */}
         </Box>
         <Box width={7 / 8} px={3} py={1} justifyContent="center">
-          <WorkFull />
+          <BlogFull />
         </Box>
       </Flex>
     </Box>
   )
 }
 
-export default Work
+export default Blog
