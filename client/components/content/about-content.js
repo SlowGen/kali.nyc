@@ -10,9 +10,15 @@ const AboutContent = () => {
             <p>
               Raised in Oregon, Kali started her career in technology as the
               webmaster for local band{' '}
-              <a href="http://dandywarhols.com">The Dandy Warhols</a>. After
-              moving to NYC in 2000, she persued a career in hospitality but
-              found herself always drawn back to her love of technology.
+              <a
+                href="http://dandywarhols.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Dandy Warhols
+              </a>. After moving to NYC in 2000, she persued a career in
+              hospitality but found herself always drawn back to her love of
+              technology.
             </p>
           </Box>
           <Box width={1 / 3} px={2}>
@@ -29,9 +35,22 @@ const AboutContent = () => {
               head-first into coding. After weeks of teaching herself Python and
               data visualiation, Kali sought out guidance from other engineers
               in the area and ultimately settled on applying for the{' '}
-              <a href="http://gracehopper.com">Grace Hopper program</a> at{' '}
-              <a href="http://fullstackacademy.com">Fullstack Academy</a> and
-              graduated in September 2020.
+              <a
+                href="http://gracehopper.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Grace Hopper program
+              </a>{' '}
+              at{' '}
+              <a
+                href="http://fullstackacademy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Fullstack Academy
+              </a>{' '}
+              and graduated in September 2020.
             </p>
           </Box>
         </Flex>
