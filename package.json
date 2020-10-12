@@ -38,14 +38,19 @@
   "author": "SlowGen (Kali)",
   "license": "MIT",
   "dependencies": {
+    "@rebass/forms": "^4.0.6",
+    "axios": "^0.20.0",
     "compression": "^1.7.3",
     "express": "^4.16.4",
     "history": "^4.9.0",
     "morgan": "^1.9.1",
+    "nodemailer": "^6.4.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "rebass": "^4.0.7"
+    "rebass": "^4.0.7",
+    "socket.io": "^2.3.0",
+    "xoauth2": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

@@ -1,9 +1,12 @@
+/* eslint-disable no-unused-vars */
 const path = require('path')
 const express = require('express')
 const morgan = require('morgan')
 const compression = require('compression')
+
 const PORT = process.env.PORT || 8080
 const app = express()
+const socketio = require('socket.io')
 module.exports = app
 
 const createApp = () => {
@@ -16,6 +19,9 @@ const createApp = () => {
 
   // compression middleware
   app.use(compression())
+
+  // route for sending msgs
+  app.post('/msgs', require('./msgs'))
 
   // static file-serving middleware
   app.use(express.static(path.join(__dirname, '..', 'public')))
@@ -49,6 +55,10 @@ const startListening = () => {
   const server = app.listen(PORT, () =>
     console.log(`Mixing it up on port ${PORT}`)
   )
+
+  // set up our socket control center
+  const io = socketio(server)
+  require('./socket')(io)
 }
 
 async function bootApp() {
