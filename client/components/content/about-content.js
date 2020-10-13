@@ -8,16 +8,16 @@ const AboutContent = () => {
         <Flex justifyItems="space-between">
           <Box width={2 / 3} px={2}>
             <p>
-              Raised in Oregon, Kali started her career in technology as the
-              webmaster for local band{' '}
+              Raised in Oregon, Kali (a.k.a SlowGen) started her career in
+              technology as the webmaster for local band{' '}
               <a
                 href="http://dandywarhols.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 The Dandy Warhols
-              </a>. After moving to NYC in 2000, she persued a career in
-              hospitality but found herself always drawn back to her love of
+              </a>. After moving to NYC in 2000, she pursued a career in
+              hospitality but found herself always drawn to her love of
               technology.
             </p>
           </Box>
@@ -33,7 +33,7 @@ const AboutContent = () => {
             <p>
               In 2019, Kali left her successful past behind and jumped
               head-first into coding. After weeks of teaching herself Python and
-              data visualiation, Kali sought out guidance from other engineers
+              data visualization, Kali sought out guidance from other engineers
               in the area and ultimately settled on applying for the{' '}
               <a
                 href="http://gracehopper.com"
@@ -50,7 +50,8 @@ const AboutContent = () => {
               >
                 Fullstack Academy
               </a>{' '}
-              and graduated in September 2020.
+              where she learned JavaScript and the NERD stack. Kali graduated in
+              September 2020.
             </p>
           </Box>
         </Flex>
@@ -59,9 +60,9 @@ const AboutContent = () => {
             <p>
               In her pre-Covid free time, Kali was an avid pool player competing
               in local leagues since 2007, winning several team championships
-              and an MVP award. Now, she still keeps in touch with her pool
-              friends and spends most of her time coding and enjoying a full
-              home life on the Upper West Side.
+              and an MVP award. These days, she still keeps in touch with her
+              pool friends and spends most of her time coding and you can find
+              her enjoying life on the Upper West Side.
             </p>
           </Box>
           <Box width={1 / 3} px={2}>
@@ -71,8 +72,14 @@ const AboutContent = () => {
         <Flex justifyContent="center">
           <Box>
             <p>
-              Kali is currently open to new opportunities, please feel free to
-              reach out!
+              Kali is currently open to new opportunities, please feel free to{' '}
+              <a
+                href="https://www.linkedin.com/in/kali-nfn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                reach out!
+              </a>
             </p>
           </Box>
         </Flex>
