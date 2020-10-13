@@ -10,12 +10,14 @@ install:
   - npm ci # faster, goes only from package-lock
 script:
   - npm run build-client # make the bundle
-# before_deploy:
-#   - rm -rf node_modules # omit from the tarball, since we skip cleanup
-# deploy:
-#   skip_cleanup: true # prevents travis from deleting the build
-#   provider: heroku
-#   on: main
-#   app: YOUR-HEROKU-APP-NAME-HERE # see README
-#   api_key:
-#     secure: YOUR-***ENCRYPTED***-API-KEY-HERE # see README
+before_deploy: # omit node_modules, since we set skip_cleanup below
+  - rm -rf node_modules
+deploy: # see README for details on these keys
+  # prevents travis from deleting the build
+  skip_cleanup: true
+  provider: heroku
+  # app should be your heroku app name; see README
+  app: kali-nyc
+  # the secure key indicates an encrypted value; see README
+  api_key:
+    secure: Fe6FN/yLyr8ckydDcPxo/PjCoemczTvWljNDiPl5+5JPv69x++T/sKCq7u2COfLDPF+Oa0DdOtJ1SedGFm1FDxgpa2okMqzpS8FfEdCEGv7Qd58ghWMnscu8PggVXD5KJZ+OlbiTW80a1JjydF9mQA6Pl782R5Iihlvda9leHJ3Ms+tynci+4rjOGGdHuS2BEAG5nKCtDUy1u0nYE7oIpOiw/BCMQW7toeYUuwnJo1w4pdESJWNeLQOWL/PN8sYavlY3LEMQU78+axy0mqi/RXBc7W+FXY3nDEQOyNBJM8dLRiPnJVd4CPtpkKtJ1Fr4iJWndN4SjppoD7MGHPjEcwD6f3V/5lHjb5xYor8RZ6pC3ekt2W7l48Z1ky9lLaVidTep+w1840QP8VStAt3LVIQDQ2xhVpzx7vDgFw6kdhvWaYPKr/9us9ceEZ7+9jF/Vxl22xcuF9hYvObfNiur1aNExSFXl0bppnjDgtE6Gi5Hw+ecv1is5aGjACBoMbxVRpv2yV5kUDfjMR4Px2tWpx9piqgLYLbUQ4Jt3GhVbsEwE4NSlEKBA3yeaCzIo7wqmaDO/roBFs67SE3jIwfLIzF7Xov1G4caLZeeBO9LhTdn5/xq5GvdXXC2bD1pm3FD9UqHEnXjEqGG3z/fHzEp5SZfzZ1lmY8UbETMCaYuxXo=
