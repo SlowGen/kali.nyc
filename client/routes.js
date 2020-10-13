@@ -14,6 +14,7 @@ const Routes = () => {
       <Route path="/blog" component={Blog} />
       <Route path="/photos" component={Photos} />
       <Route path="/msgme" component={MsgMe} />
+      <Route component={Home} />
     </Switch>
   )
 }
