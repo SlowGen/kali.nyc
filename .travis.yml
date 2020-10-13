@@ -15,6 +15,7 @@ script:
 # deploy:
 #   skip_cleanup: true # prevents travis from deleting the build
 #   provider: heroku
+#   on: main
 #   app: YOUR-HEROKU-APP-NAME-HERE # see README
 #   api_key:
 #     secure: YOUR-***ENCRYPTED***-API-KEY-HERE # see README
