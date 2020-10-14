@@ -4,7 +4,7 @@ import {Box, Button} from 'rebass'
 import {Label, Input, Textarea} from '@rebass/forms'
 import axios from 'axios'
 
-const MsgMeContent = () => {
+const Writing = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
@@ -58,4 +58,4 @@ const MsgMeContent = () => {
   )
 }
 
-export default MsgMeContent
+export default Writing

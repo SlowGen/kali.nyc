@@ -2,12 +2,13 @@
 import React from 'react'
 import {Box, Flex, Image} from 'rebass'
 
-const MsgMeContent = () => {
+const Contact = () => {
+  const height = 60
   return (
-    <Flex justifyContent="space-evenly">
-      <Box justifyContent="center">
+    <Flex justifyContent="center">
+      <Box justifyContent="center" pb={4}>
         <a href="mailto:info@kali.nyc">
-          <Image src="images/email.png" />
+          <Image src="images/email.png" maxHeight={height} />
         </a>
       </Box>
       <Box justifyContent="center">
@@ -16,7 +17,7 @@ const MsgMeContent = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image src="images/linkedin.png" />
+          <Image src="images/linkedin.png" maxHeight={height} />
         </a>
       </Box>
       <Box justifyContent="center">
@@ -25,11 +26,11 @@ const MsgMeContent = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image src="images/github.png" />
+          <Image src="images/github.png" maxHeight={height} />
         </a>
       </Box>
     </Flex>
   )
 }
 
-export default MsgMeContent
+export default Contact

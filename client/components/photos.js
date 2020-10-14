@@ -1,47 +1,35 @@
 import React from 'react'
-import {Box, Flex} from 'rebass'
+import {Box} from 'rebass'
+import Slideshow from 'react-slidez'
 
-import {
-  PhotosFull,
-  AboutMini,
-  WorkMini,
-  BlogMini,
-  PhotosMini,
-  MsgMeMini
-} from '../components'
-
-/**
- * COMPONENT
- */
-export const Photos = () => {
+const Photos = () => {
   return (
-    <Box>
-      <Flex justifyContent="center">
-        <Box justifyContent="right" width={1 / 8}>
-          {/* left column */}
-          <Flex flexDirection="column">
-            <Box width={1} px={1} py={2}>
-              <AboutMini />
-            </Box>
-            <Box width={1} px={1} py={2}>
-              <WorkMini />
-            </Box>
-            <Box width={1} px={1} py={2}>
-              <BlogMini />
-            </Box>
-            <Box width={1} px={1} py={2}>
-              <PhotosMini />
-            </Box>
-            <Box width={1} px={1} py={2}>
-              <MsgMeMini />
-            </Box>
-          </Flex>
-          {/* middle column */}
-        </Box>
-        <Box width={7 / 8} px={3} py={1} justifyContent="center">
-          <PhotosFull />
-        </Box>
-      </Flex>
+    <Box width={712} height={712} pb={2} pt={4}>
+      <Slideshow
+        autoplay
+        enableKeyboard
+        useDotIndex
+        slideInterval={5000}
+        defaultIndex={1}
+        slides={[
+          'images/photos/selfie.jpg',
+          'images/photos/gridmat.jpg',
+          'images/photos/aliens.jpg',
+          'images/photos/bernie.jpg',
+          'images/photos/dirty.jpg',
+          'images/photos/east.jpg',
+          'images/photos/self.jpg',
+          'images/photos/north.jpg',
+          'images/photos/skylight.jpg',
+          'images/photos/turtlepond.jpg',
+          'images/photos/south.jpg',
+          'images/photos/two.jpg',
+          'images/photos/west.jpg'
+        ]}
+        effect="fade"
+        width={712}
+        height={500}
+      />
     </Box>
   )
 }

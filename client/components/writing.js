@@ -1,7 +1,7 @@
 import React from 'react'
 import {Box, Flex, Image} from 'rebass'
 
-const BlogContent = () => {
+const Writing = () => {
   return (
     <Flex justifyItems="space-between">
       <Box width={2 / 3} px={2}>
@@ -195,4 +195,4 @@ const BlogContent = () => {
   )
 }
 
-export default BlogContent
+export default Writing

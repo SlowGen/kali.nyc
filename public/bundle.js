@@ -97,14 +97,12 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components */ "./client/components/index.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "./client/routes.js");
-
+/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main */ "./client/main.js");
 
 
 
 var App = function App() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Navbar"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Footer"], null));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_main__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -115,126 +113,6 @@ var App = function App() {
 /*!************************************!*\
   !*** ./client/components/about.js ***!
   \************************************/
-/*! exports provided: About, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "About", function() { return About; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./client/components/index.js");
-
-
-
-/**
- * COMPONENT
- */
-
-var About = function About() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    justifyContent: "right",
-    width: 1 / 8
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeMini"], null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 7 / 8,
-    px: 3,
-    py: 1,
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutFull"], null))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (About);
-
-/***/ }),
-
-/***/ "./client/components/blog.js":
-/*!***********************************!*\
-  !*** ./client/components/blog.js ***!
-  \***********************************/
-/*! exports provided: Blog, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Blog", function() { return Blog; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./client/components/index.js");
-
-
-
-/**
- * COMPONENT
- */
-
-var Blog = function Blog() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    justifyContent: "right",
-    width: 1 / 8
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeMini"], null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 7 / 8,
-    px: 3,
-    py: 1,
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogFull"], null))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (Blog);
-
-/***/ }),
-
-/***/ "./client/components/content/about-content.js":
-/*!****************************************************!*\
-  !*** ./client/components/content/about-content.js ***!
-  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -246,21 +124,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var AboutContent = function AboutContent() {
+var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    pb: 6
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     justifyItems: "space-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Raised in Oregon, Kali (a.k.a SlowGen) started her career in technology as the webmaster for local band", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://dandywarhols.com",
     target: "_blank",
     rel: "noopener noreferrer"
   }, "The Dandy Warhols"), ". After moving to NYC in 2000, she pursued a career in hospitality but found herself always drawn to her love of technology.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/photos/ziakali.jpg",
     maxHeight: 160
@@ -268,13 +148,13 @@ var AboutContent = function AboutContent() {
     justifyItems: "space-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/gh-logo.svg",
     maxWidth: 250
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In 2019, Kali left her successful past behind and jumped head-first into coding. After weeks of teaching herself Python and data visualization, Kali sought out guidance from other engineers in the area and ultimately settled on applying for the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://gracehopper.com",
     target: "_blank",
@@ -287,10 +167,10 @@ var AboutContent = function AboutContent() {
     justifyItems: "space-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In her pre-Covid free time, Kali was an avid pool player competing in local leagues since 2007, winning several team championships and an MVP award. These days, she still keeps in touch with her pool friends and spends most of her time coding and you can find her enjoying life on the Upper West Side.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 2
+    px: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/photos/poolchamps.jpg",
     maxHeight: 160
@@ -303,83 +183,14 @@ var AboutContent = function AboutContent() {
   }, "reach out!"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (AboutContent);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ "./client/components/content/blog-content.js":
-/*!***************************************************!*\
-  !*** ./client/components/content/blog-content.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-
-
-
-var BlogContent = function BlogContent() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyItems: "space-between"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 2 / 3,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contactless Payments"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, " Why it isn't truly contactless and what we can do to fix it"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In the era of Covid-19, you hear the term \u201Ccontactless\u201D everywhere. The term is not new, but it has become omnipresent in our daily lives. Specifically, \u201Ccontactless payments\u201D are something that many of us have been using for years, but now have made it even further into the fabric of the new American life."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What are contactless payments?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Contactless payments are payments made with credit cards and debit cards or other devices, including smartphones and smartwatches, that use radio-frequency identification (RFID) or near field communication (NFC.) In a nutshell, this means that the actual credit card does not have to \u201Cswipe\u201D in the machine in order to complete the transaction. The lack of a \u201Cswipe\u201D is what deems the transaction \u201Ccontactless\u201D and in today\u2019s vernacular, anything \u201Ccontactless\u201D is thereby SAFE."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "While the security of such payments is a hot topic and a valid consideration when choosing a payment method, for the purpose of this article, we will be discussing the physical TOUCH of the payment. So I ask, are contactless payments truly \u201Ccontactless?\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Where do we use contactless payments?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "On an average pre-Covid day one might find themselves using their device to pay for transactions frequently. Morning coffee run, tap and go. Afternoon lunch at a corner quick-serve restaurant, tap and go. You may even choose to use your device to pay your taxi fare in a yellow cab when an Uber just isn\u2019t available. Maybe even your favorite happy hour spot accepts Google Pay and Apple Pay, but what really happens when we use our device to pay?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "How do contactless payments work?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Without getting into extremely technical details of how it works, the basic idea is pretty simple. Your device creates a digital \u201Ctoken\u201D that has very limited and encrypted information in it. This token essentially has two bits of information, information that links the transaction to your account (i.e. your credit card number\u2026 but not explicitly!) and a security code (i.e. your PIN.. but again, not explicitly.) The token is transmitted to the receiving device, and the receiving device connects to the various authentication / transaction services to verify, and when successful, the transaction is complete! But what happens before and after depends on where you are using your device to pay."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: ""
-  }, "More on RFID and NFC here!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Let\u2019s head back to our coffee shop! My local shop uses", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://squareup.com/us/en",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Square")), ' ', "as its Point-Of-Sale (POS, a digital register) After ordering my tall iced coffee, black, the counter person swivels the iPad around and I have to touch to opt in or out on a tip, hit OK and then I am free to tap my device to pay and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It\u2019s now lunchtime and I head over to the sandwich shop for a ham and cheese on ciabatta with Russian dressing. This shop uses a standard", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.youtube.com/watch?v=iuh_LF-SQjE",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  })), ' ', "device that is customer-facing. An EMV device is a regular credit card machine that is capable of accepting a chipped card, a swipe or a contactless payment. The clerk enters the sandwich order into the POS and the amount owed appears on the EMV screen. I am instructed to hit \u201COK\u201D to approve, and then I can tap my device and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After I finish my day, I take a yellow cab to the local watering hole. At the end of my ride, the large display screen in the back of the cab notifies me of my fare total and I have the option of entering a tip. After approving the final total, I am then free to tap my device to the EMV machine mounted on the partition."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To finish off my evening, I have a few drinks and an after-work snack. I notify the bartender that I am ready to pay and that I wish to use my device. After I receive my tab, the bartender places the EMV in front of me so I can tap to pay. But I can\u2019t go just yet! After approval, the slip prints out and is handed to me, where I enter a tip and sign, then hand back to the bartender. On another day, I might go somewhere where the staff uses hand-held devices. In this case, the device would be given to me to enter tip information and perhaps sign somewhere on the screen."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "For those not keeping track, that is four \u201Ccontactless\u201D payments that were nowhere near contactless.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Yes, there are locations and scenarios that provide for more of a truly \u201Ctap and go\u201D customer experience, but they are the exception, not the rule. In America, where tipping is standard everywhere, this is most common in establishments where a gratuity would be adjusted in after the transaction is approved. Elsewhere, many countries have a monetary limit on contactless payments. Each transaction has a maximum amount and if that amount is surpassed, the transaction must be accompanied by a PIN entry, signature or other additional authentication means. In the UK, this maximum is \xA345. Australia, A$100. The US has no such federally mandated limit, though many businesses and / or account providers have their own policies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What can we do to fix it?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "At the time of this writing, there would need to be some major infrastructure changes in order to make truly contactless experiences universal. The \u201Ctoken\u201D system would need to allow for more information to be provided (such as automatically changing the final total to include a tip based on user-device input,) the POS and EMV systems would need to be updated to be able to accept that additional information and the merchant services that accept the payments on the back end would need to be able to verify and accept these payments as authorized. None of which are terribly complicated from an engineer\u2019s point of view, but coordinating or mandating such an upgrade universally, would be."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "There are already some third party apps that aid in this, but they are typically vendor specific and not universal in any way. For example, in NYC there are two third party payment systems available for taking a yellow cab. Each of them require that you download their app and each is only usable in a cab that is also using that particular payment app. One cab may take Arrow and the other takes Curb. You essentially have to have both on your device and hope that you never jump in a cab that doesn\u2019t take either. And that is for a taxi system whose payments are heavily regulated by local government! If we were to circumvent the current infrastructure issues, we would need a universal app or app compatibility that is accepted everywhere and allows for all of these features and transactions to be completed on the device before you tap and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What do we do in the meantime?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Given the immediacy of the issues that Covid-19 brings, I expect that more and more establishments will begin seeking out third party options. Not only for the safety of their customers, but also their staff. It is already common for big national chains to have native apps available for their customers (Olive Garden, TGIFridays and Outback Steakhouse to name a few) and most of them include the option to pay your bill from your device. Those that don\u2019t allow payments (Red Lobster, Denny\u2019s and Applebee\u2019s e.g.) are most likely working on finding a way to integrate. This doesn\u2019t do much to help the already struggling mom and pop\u2019s, but the option is available. This also means you need a different app for each company, which can be burdensome to already overloaded devices."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It took nearly 30 years for EMV to become globally accepted and", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.thalesgroup.com/en/americas/united-states/digital-identity-and-security/emv",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "as of March 2019, only 75% of US merchants are fully integrated.")), ' ', "Contactless as we know it has only been around in some form or another for about 10 years. I\u2019m not holding my breath, but change will come. It has to.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 3,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/photos/contactless.png"
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (BlogContent);
-
-/***/ }),
-
-/***/ "./client/components/content/home-content.js":
-/*!***************************************************!*\
-  !*** ./client/components/content/home-content.js ***!
-  \***************************************************/
-/*! exports provided: HomeContent, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeContent", function() { return HomeContent; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-
-
-var HomeContent = function HomeContent() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Welcome!"));
-};
-/* harmony default export */ __webpack_exports__["default"] = (HomeContent);
-
-/***/ }),
-
-/***/ "./client/components/content/msgme-content.js":
-/*!****************************************************!*\
-  !*** ./client/components/content/msgme-content.js ***!
-  \****************************************************/
+/***/ "./client/components/contact.js":
+/*!**************************************!*\
+  !*** ./client/components/contact.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -392,15 +203,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var MsgMeContent = function MsgMeContent() {
+var Contact = function Contact() {
+  var height = 60;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "space-evenly"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     justifyContent: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    justifyContent: "center",
+    pb: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:info@kali.nyc"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/email.png"
+    src: "images/email.png",
+    maxHeight: height
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     justifyContent: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -408,7 +222,8 @@ var MsgMeContent = function MsgMeContent() {
     target: "_blank",
     rel: "noopener noreferrer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/linkedin.png"
+    src: "images/linkedin.png",
+    maxHeight: height
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     justifyContent: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -416,18 +231,111 @@ var MsgMeContent = function MsgMeContent() {
     target: "_blank",
     rel: "noopener noreferrer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/github.png"
+    src: "images/github.png",
+    maxHeight: height
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (MsgMeContent);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
-/***/ "./client/components/content/photos-content.js":
-/*!*****************************************************!*\
-  !*** ./client/components/content/photos-content.js ***!
-  \*****************************************************/
+/***/ "./client/components/home.js":
+/*!***********************************!*\
+  !*** ./client/components/home.js ***!
+  \***********************************/
+/*! exports provided: Home, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Home", function() { return Home; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+/**
+ * COMPONENT
+ */
+
+var Home = function Home() {
+  var homePink = 'images/home-logo-top.png';
+  var homePurple = 'images/home-logo-bottom.png';
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(homePink),
+      _useState2 = _slicedToArray(_useState, 2),
+      homeTile = _useState2[0],
+      setHomeTile = _useState2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: homeTile,
+    maxHeight: 700,
+    onMouseEnter: function onMouseEnter() {
+      return setHomeTile(homePurple);
+    },
+    onMouseLeave: function onMouseLeave() {
+      return setHomeTile(homePink);
+    }
+  }));
+};
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./client/components/index.js":
+/*!************************************!*\
+  !*** ./client/components/index.js ***!
+  \************************************/
+/*! exports provided: Home, About, Work, Writing, Photos, Contact */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ "./client/components/home.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Home", function() { return _home__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about */ "./client/components/about.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _about__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _work__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./work */ "./client/components/work.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Work", function() { return _work__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _writing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./writing */ "./client/components/writing.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Writing", function() { return _writing__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _photos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./photos */ "./client/components/photos.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Photos", function() { return _photos__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact */ "./client/components/contact.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return _contact__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
+/**
+ * `components/index.js` exists simply as a 'central export' for our components.
+ * This way, we can import all of our components from the same place, rather than
+ * having to figure out which file they belong to!
+ */
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./client/components/photos.js":
+/*!*************************************!*\
+  !*** ./client/components/photos.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -442,15 +350,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var PhotosContent = function PhotosContent() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+var Photos = function Photos() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 712,
-    height: 505
+    height: 712,
+    pb: 2,
+    pt: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slidez__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    showIndex: true,
-    showArrows: true,
     autoplay: true,
     enableKeyboard: true,
     useDotIndex: true,
@@ -460,17 +366,17 @@ var PhotosContent = function PhotosContent() {
     effect: "fade",
     width: 712,
     height: 500
-  })));
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PhotosContent);
+/* harmony default export */ __webpack_exports__["default"] = (Photos);
 
 /***/ }),
 
-/***/ "./client/components/content/work-content.js":
-/*!***************************************************!*\
-  !*** ./client/components/content/work-content.js ***!
-  \***************************************************/
+/***/ "./client/components/work.js":
+/*!***********************************!*\
+  !*** ./client/components/work.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -482,7 +388,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var WorkContent = function WorkContent() {
+var Work = function Work() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     justifyContent: "center",
     flexWrap: "wrap"
@@ -602,7 +508,7 @@ var WorkContent = function WorkContent() {
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null)));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (WorkContent); // this is a style template for adding more projects in the future:
+/* harmony default export */ __webpack_exports__["default"] = (Work); // this is a style template for adding more projects in the future:
 
 /* <hr />
 
@@ -613,10 +519,10 @@ var WorkContent = function WorkContent() {
 
 /***/ }),
 
-/***/ "./client/components/footer.js":
-/*!*************************************!*\
-  !*** ./client/components/footer.js ***!
-  \*************************************/
+/***/ "./client/components/writing.js":
+/*!**************************************!*\
+  !*** ./client/components/writing.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -628,925 +534,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "bar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, "Copyright 2020 All Rights Reserved")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./client/components/home.js":
-/*!***********************************!*\
-  !*** ./client/components/home.js ***!
-  \***********************************/
-/*! exports provided: Home, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Home", function() { return Home; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-/**
- * COMPONENT
- */
-
-var Home = function Home() {
-  var homePink = 'images/home-tiles/home-home-pink.png';
-  var homePurple = 'images/home-tiles/home-home-purple.png';
-  var aboutPink = 'images/home-tiles/home-about-pink.png';
-  var aboutPurple = 'images/home-tiles/home-about-purple.png';
-  var workPink = 'images/home-tiles/home-work-pink.png';
-  var workPurple = 'images/home-tiles/home-work-purple.png';
-  var photosPink = 'images/home-tiles/home-photos-pink.png';
-  var photosPurple = 'images/home-tiles/home-photos-purple.png';
-  var blogPink = 'images/home-tiles/home-blog-pink.png';
-  var blogPurple = 'images/home-tiles/home-blog-purple.png';
-  var msgMePink = 'images/home-tiles/home-msgme-pink.png';
-  var msgMePurple = 'images/home-tiles/home-msgme-purple.png';
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(homePink),
-      _useState2 = _slicedToArray(_useState, 2),
-      homeTile = _useState2[0],
-      setHomeTile = _useState2[1];
-
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(aboutPink),
-      _useState4 = _slicedToArray(_useState3, 2),
-      aboutTile = _useState4[0],
-      setAboutTile = _useState4[1];
-
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(workPink),
-      _useState6 = _slicedToArray(_useState5, 2),
-      workTile = _useState6[0],
-      setWorkTile = _useState6[1];
-
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(photosPink),
-      _useState8 = _slicedToArray(_useState7, 2),
-      photosTile = _useState8[0],
-      setPhotosTile = _useState8[1];
-
-  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(blogPink),
-      _useState10 = _slicedToArray(_useState9, 2),
-      blogTile = _useState10[0],
-      setBlogTile = _useState10[1];
-
-  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(msgMePink),
-      _useState12 = _slicedToArray(_useState11, 2),
-      msgMeTile = _useState12[0],
-      setMsgMeTile = _useState12[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap"
+var Writing = function Writing() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    justifyItems: "space-between"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setAboutTile(aboutPurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setAboutTile(aboutPink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/about"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: aboutTile
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setHomeTile(homePurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setHomeTile(homePink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/home"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: homeTile
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setWorkTile(workPurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setWorkTile(workPink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/work"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: workTile
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setPhotosTile(photosPurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setPhotosTile(photosPink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/photos"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: photosTile
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setBlogTile(blogPurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBlogTile(blogPink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: blogTile
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    onMouseEnter: function onMouseEnter() {
-      return setMsgMeTile(msgMePurple);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setMsgMeTile(msgMePink);
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/msgme"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: msgMeTile
-  })))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (Home);
-
-/***/ }),
-
-/***/ "./client/components/index.js":
-/*!************************************!*\
-  !*** ./client/components/index.js ***!
-  \************************************/
-/*! exports provided: Navbar, Footer, Home, About, Work, Blog, Photos, MsgMe, HomeFull, HomeMini, AboutFull, AboutMini, WorkFull, WorkMini, BlogFull, BlogMini, PhotosFull, PhotosMini, MsgMeFull, MsgMeMini, HomeContent, AboutContent, WorkContent, BlogContent, PhotosContent, MsgMeContent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./navbar */ "./client/components/navbar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return _navbar__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer */ "./client/components/footer.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _footer__WEBPACK_IMPORTED_MODULE_1__["default"]; });
-
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./client/components/home.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Home", function() { return _home__WEBPACK_IMPORTED_MODULE_2__["default"]; });
-
-/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about */ "./client/components/about.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _about__WEBPACK_IMPORTED_MODULE_3__["default"]; });
-
-/* harmony import */ var _work__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./work */ "./client/components/work.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Work", function() { return _work__WEBPACK_IMPORTED_MODULE_4__["default"]; });
-
-/* harmony import */ var _blog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./blog */ "./client/components/blog.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Blog", function() { return _blog__WEBPACK_IMPORTED_MODULE_5__["default"]; });
-
-/* harmony import */ var _photos__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./photos */ "./client/components/photos.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Photos", function() { return _photos__WEBPACK_IMPORTED_MODULE_6__["default"]; });
-
-/* harmony import */ var _msgme__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./msgme */ "./client/components/msgme.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MsgMe", function() { return _msgme__WEBPACK_IMPORTED_MODULE_7__["default"]; });
-
-/* harmony import */ var _tiles_home_tiles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tiles/home-tiles */ "./client/components/tiles/home-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeFull", function() { return _tiles_home_tiles__WEBPACK_IMPORTED_MODULE_8__["HomeFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeMini", function() { return _tiles_home_tiles__WEBPACK_IMPORTED_MODULE_8__["HomeMini"]; });
-
-/* harmony import */ var _tiles_about_tiles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./tiles/about-tiles */ "./client/components/tiles/about-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AboutFull", function() { return _tiles_about_tiles__WEBPACK_IMPORTED_MODULE_9__["AboutFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AboutMini", function() { return _tiles_about_tiles__WEBPACK_IMPORTED_MODULE_9__["AboutMini"]; });
-
-/* harmony import */ var _tiles_work_tiles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./tiles/work-tiles */ "./client/components/tiles/work-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkFull", function() { return _tiles_work_tiles__WEBPACK_IMPORTED_MODULE_10__["WorkFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkMini", function() { return _tiles_work_tiles__WEBPACK_IMPORTED_MODULE_10__["WorkMini"]; });
-
-/* harmony import */ var _tiles_blog_tiles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./tiles/blog-tiles */ "./client/components/tiles/blog-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogFull", function() { return _tiles_blog_tiles__WEBPACK_IMPORTED_MODULE_11__["BlogFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogMini", function() { return _tiles_blog_tiles__WEBPACK_IMPORTED_MODULE_11__["BlogMini"]; });
-
-/* harmony import */ var _tiles_photos_tiles__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./tiles/photos-tiles */ "./client/components/tiles/photos-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhotosFull", function() { return _tiles_photos_tiles__WEBPACK_IMPORTED_MODULE_12__["PhotosFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhotosMini", function() { return _tiles_photos_tiles__WEBPACK_IMPORTED_MODULE_12__["PhotosMini"]; });
-
-/* harmony import */ var _tiles_msgme_tiles__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./tiles/msgme-tiles */ "./client/components/tiles/msgme-tiles.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MsgMeFull", function() { return _tiles_msgme_tiles__WEBPACK_IMPORTED_MODULE_13__["MsgMeFull"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MsgMeMini", function() { return _tiles_msgme_tiles__WEBPACK_IMPORTED_MODULE_13__["MsgMeMini"]; });
-
-/* harmony import */ var _content_home_content__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./content/home-content */ "./client/components/content/home-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeContent", function() { return _content_home_content__WEBPACK_IMPORTED_MODULE_14__["default"]; });
-
-/* harmony import */ var _content_about_content__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./content/about-content */ "./client/components/content/about-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AboutContent", function() { return _content_about_content__WEBPACK_IMPORTED_MODULE_15__["default"]; });
-
-/* harmony import */ var _content_work_content__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./content/work-content */ "./client/components/content/work-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkContent", function() { return _content_work_content__WEBPACK_IMPORTED_MODULE_16__["default"]; });
-
-/* harmony import */ var _content_blog_content__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./content/blog-content */ "./client/components/content/blog-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BlogContent", function() { return _content_blog_content__WEBPACK_IMPORTED_MODULE_17__["default"]; });
-
-/* harmony import */ var _content_photos_content__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./content/photos-content */ "./client/components/content/photos-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhotosContent", function() { return _content_photos_content__WEBPACK_IMPORTED_MODULE_18__["default"]; });
-
-/* harmony import */ var _content_msgme_content__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./content/msgme-content */ "./client/components/content/msgme-content.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MsgMeContent", function() { return _content_msgme_content__WEBPACK_IMPORTED_MODULE_19__["default"]; });
-
-/**
- * `components/index.js` exists simply as a 'central export' for our components.
- * This way, we can import all of our components from the same place, rather than
- * having to figure out which file they belong to!
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-
-/***/ "./client/components/msgme.js":
-/*!************************************!*\
-  !*** ./client/components/msgme.js ***!
-  \************************************/
-/*! exports provided: MsgMe, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MsgMe", function() { return MsgMe; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./client/components/index.js");
-
-
-
-/**
- * COMPONENT
- */
-
-var MsgMe = function MsgMe() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    justifyContent: "right",
-    width: 1 / 8
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeMini"], null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 7 / 8,
-    px: 3,
-    py: 1,
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeFull"], null))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (MsgMe);
-
-/***/ }),
-
-/***/ "./client/components/navbar.js":
-/*!*************************************!*\
-  !*** ./client/components/navbar.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-
-
-
-
-var Navbar = function Navbar() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "bar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navlinks"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/home"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "navlogo",
-    src: "images/banner-ani.gif"
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
-
-/***/ }),
-
-/***/ "./client/components/photos.js":
-/*!*************************************!*\
-  !*** ./client/components/photos.js ***!
-  \*************************************/
-/*! exports provided: Photos, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Photos", function() { return Photos; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./client/components/index.js");
-
-
-
-/**
- * COMPONENT
- */
-
-var Photos = function Photos() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    justifyContent: "right",
-    width: 1 / 8
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeMini"], null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 7 / 8,
-    px: 3,
-    py: 1,
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosFull"], null))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (Photos);
-
-/***/ }),
-
-/***/ "./client/components/tiles/about-tiles.js":
-/*!************************************************!*\
-  !*** ./client/components/tiles/about-tiles.js ***!
-  \************************************************/
-/*! exports provided: AboutFull, AboutMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutFull", function() { return AboutFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutMini", function() { return AboutMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var AboutFull = function AboutFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 2 / 3,
     px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["AboutContent"], null))));
-};
-var AboutMini = function AboutMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    justifyContent: "right",
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(200);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/about"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/about.png"
-  }))))));
-};
-
-/***/ }),
-
-/***/ "./client/components/tiles/blog-tiles.js":
-/*!***********************************************!*\
-  !*** ./client/components/tiles/blog-tiles.js ***!
-  \***********************************************/
-/*! exports provided: BlogFull, BlogMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogFull", function() { return BlogFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogMini", function() { return BlogMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var BlogFull = function BlogFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contactless Payments"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, " Why it isn't truly contactless and what we can do to fix it"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In the era of Covid-19, you hear the term \u201Ccontactless\u201D everywhere. The term is not new, but it has become omnipresent in our daily lives. Specifically, \u201Ccontactless payments\u201D are something that many of us have been using for years, but now have made it even further into the fabric of the new American life."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What are contactless payments?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Contactless payments are payments made with credit cards and debit cards or other devices, including smartphones and smartwatches, that use radio-frequency identification (RFID) or near field communication (NFC.) In a nutshell, this means that the actual credit card does not have to \u201Cswipe\u201D in the machine in order to complete the transaction. The lack of a \u201Cswipe\u201D is what deems the transaction \u201Ccontactless\u201D and in today\u2019s vernacular, anything \u201Ccontactless\u201D is thereby SAFE."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "While the security of such payments is a hot topic and a valid consideration when choosing a payment method, for the purpose of this article, we will be discussing the physical TOUCH of the payment. So I ask, are contactless payments truly \u201Ccontactless?\u201D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Where do we use contactless payments?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "On an average pre-Covid day one might find themselves using their device to pay for transactions frequently. Morning coffee run, tap and go. Afternoon lunch at a corner quick-serve restaurant, tap and go. You may even choose to use your device to pay your taxi fare in a yellow cab when an Uber just isn\u2019t available. Maybe even your favorite happy hour spot accepts Google Pay and Apple Pay, but what really happens when we use our device to pay?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "How do contactless payments work?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Without getting into extremely technical details of how it works, the basic idea is pretty simple. Your device creates a digital \u201Ctoken\u201D that has very limited and encrypted information in it. This token essentially has two bits of information, information that links the transaction to your account (i.e. your credit card number\u2026 but not explicitly!) and a security code (i.e. your PIN.. but again, not explicitly.) The token is transmitted to the receiving device, and the receiving device connects to the various authentication / transaction services to verify, and when successful, the transaction is complete! But what happens before and after depends on where you are using your device to pay."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: ""
+  }, "More on RFID and NFC here!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Let\u2019s head back to our coffee shop! My local shop uses", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://squareup.com/us/en",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Square")), ' ', "as its Point-Of-Sale (POS, a digital register) After ordering my tall iced coffee, black, the counter person swivels the iPad around and I have to touch to opt in or out on a tip, hit OK and then I am free to tap my device to pay and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It\u2019s now lunchtime and I head over to the sandwich shop for a ham and cheese on ciabatta with Russian dressing. This shop uses a standard", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=iuh_LF-SQjE",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  })), ' ', "device that is customer-facing. An EMV device is a regular credit card machine that is capable of accepting a chipped card, a swipe or a contactless payment. The clerk enters the sandwich order into the POS and the amount owed appears on the EMV screen. I am instructed to hit \u201COK\u201D to approve, and then I can tap my device and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After I finish my day, I take a yellow cab to the local watering hole. At the end of my ride, the large display screen in the back of the cab notifies me of my fare total and I have the option of entering a tip. After approving the final total, I am then free to tap my device to the EMV machine mounted on the partition."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To finish off my evening, I have a few drinks and an after-work snack. I notify the bartender that I am ready to pay and that I wish to use my device. After I receive my tab, the bartender places the EMV in front of me so I can tap to pay. But I can\u2019t go just yet! After approval, the slip prints out and is handed to me, where I enter a tip and sign, then hand back to the bartender. On another day, I might go somewhere where the staff uses hand-held devices. In this case, the device would be given to me to enter tip information and perhaps sign somewhere on the screen."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "For those not keeping track, that is four \u201Ccontactless\u201D payments that were nowhere near contactless.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Yes, there are locations and scenarios that provide for more of a truly \u201Ctap and go\u201D customer experience, but they are the exception, not the rule. In America, where tipping is standard everywhere, this is most common in establishments where a gratuity would be adjusted in after the transaction is approved. Elsewhere, many countries have a monetary limit on contactless payments. Each transaction has a maximum amount and if that amount is surpassed, the transaction must be accompanied by a PIN entry, signature or other additional authentication means. In the UK, this maximum is \xA345. Australia, A$100. The US has no such federally mandated limit, though many businesses and / or account providers have their own policies."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What can we do to fix it?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "At the time of this writing, there would need to be some major infrastructure changes in order to make truly contactless experiences universal. The \u201Ctoken\u201D system would need to allow for more information to be provided (such as automatically changing the final total to include a tip based on user-device input,) the POS and EMV systems would need to be updated to be able to accept that additional information and the merchant services that accept the payments on the back end would need to be able to verify and accept these payments as authorized. None of which are terribly complicated from an engineer\u2019s point of view, but coordinating or mandating such an upgrade universally, would be."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "There are already some third party apps that aid in this, but they are typically vendor specific and not universal in any way. For example, in NYC there are two third party payment systems available for taking a yellow cab. Each of them require that you download their app and each is only usable in a cab that is also using that particular payment app. One cab may take Arrow and the other takes Curb. You essentially have to have both on your device and hope that you never jump in a cab that doesn\u2019t take either. And that is for a taxi system whose payments are heavily regulated by local government! If we were to circumvent the current infrastructure issues, we would need a universal app or app compatibility that is accepted everywhere and allows for all of these features and transactions to be completed on the device before you tap and go."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "What do we do in the meantime?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Given the immediacy of the issues that Covid-19 brings, I expect that more and more establishments will begin seeking out third party options. Not only for the safety of their customers, but also their staff. It is already common for big national chains to have native apps available for their customers (Olive Garden, TGIFridays and Outback Steakhouse to name a few) and most of them include the option to pay your bill from your device. Those that don\u2019t allow payments (Red Lobster, Denny\u2019s and Applebee\u2019s e.g.) are most likely working on finding a way to integrate. This doesn\u2019t do much to help the already struggling mom and pop\u2019s, but the option is available. This also means you need a different app for each company, which can be burdensome to already overloaded devices."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "It took nearly 30 years for EMV to become globally accepted and", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.thalesgroup.com/en/americas/united-states/digital-identity-and-security/emv",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "as of March 2019, only 75% of US merchants are fully integrated.")), ' ', "Contactless as we know it has only been around in some form or another for about 10 years. I\u2019m not holding my breath, but change will come. It has to.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 1 / 3,
     px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["BlogContent"], null))));
-};
-var BlogMini = function BlogMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    justifyContent: "right",
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(200);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/blog"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/blog.png"
-  }))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "images/photos/contactless.png"
+  })));
 };
 
-/***/ }),
-
-/***/ "./client/components/tiles/home-tiles.js":
-/*!***********************************************!*\
-  !*** ./client/components/tiles/home-tiles.js ***!
-  \***********************************************/
-/*! exports provided: HomeFull, HomeMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeFull", function() { return HomeFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeMini", function() { return HomeMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var HomeFull = function HomeFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["HomeContent"], null))));
-};
-var HomeMini = function HomeMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(200);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/home"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/home.png"
-  }))))));
-};
-
-/***/ }),
-
-/***/ "./client/components/tiles/msgme-tiles.js":
-/*!************************************************!*\
-  !*** ./client/components/tiles/msgme-tiles.js ***!
-  \************************************************/
-/*! exports provided: MsgMeFull, MsgMeMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MsgMeFull", function() { return MsgMeFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MsgMeMini", function() { return MsgMeMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var MsgMeFull = function MsgMeFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["MsgMeContent"], null))));
-};
-var MsgMeMini = function MsgMeMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(200);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/msgme"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/msgme.png"
-  }))))));
-};
-
-/***/ }),
-
-/***/ "./client/components/tiles/photos-tiles.js":
-/*!*************************************************!*\
-  !*** ./client/components/tiles/photos-tiles.js ***!
-  \*************************************************/
-/*! exports provided: PhotosFull, PhotosMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhotosFull", function() { return PhotosFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhotosMini", function() { return PhotosMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var PhotosFull = function PhotosFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["PhotosContent"], null))));
-};
-var PhotosMini = function PhotosMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(200);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/photos"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/photos.png"
-  }))))));
-};
-
-/***/ }),
-
-/***/ "./client/components/tiles/work-tiles.js":
-/*!***********************************************!*\
-  !*** ./client/components/tiles/work-tiles.js ***!
-  \***********************************************/
-/*! exports provided: WorkFull, WorkMini */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkFull", function() { return WorkFull; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkMini", function() { return WorkMini; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./client/components/index.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var WorkFull = function WorkFull() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#242939',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["WorkContent"], null))));
-};
-var WorkMini = function WorkMini() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      _useState2 = _slicedToArray(_useState, 2),
-      boxWidth = _useState2[0],
-      setBoxWidth = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: boxWidth,
-    onMouseEnter: function onMouseEnter() {
-      return setBoxWidth(500);
-    },
-    onMouseLeave: function onMouseLeave() {
-      return setBoxWidth();
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Card"], {
-    className: "card",
-    sx: {
-      backgroundColor: '#000925',
-      p: 1,
-      borderRadius: 6,
-      boxShadow: '0 0 16px rgba(0, 0, 0, 1.5)'
-    }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/work"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "images/work.png"
-  }))))));
-};
-
-/***/ }),
-
-/***/ "./client/components/work.js":
-/*!***********************************!*\
-  !*** ./client/components/work.js ***!
-  \***********************************/
-/*! exports provided: Work, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Work", function() { return Work; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
-/* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components */ "./client/components/index.js");
-
-
-
-/**
- * COMPONENT
- */
-
-var Work = function Work() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    justifyContent: "right",
-    width: 1 / 8
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["AboutMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["BlogMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["PhotosMini"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1,
-    px: 1,
-    py: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["MsgMeMini"], null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 7 / 8,
-    px: 3,
-    py: 1,
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["WorkFull"], null))));
-};
-/* harmony default export */ __webpack_exports__["default"] = (Work);
+/* harmony default export */ __webpack_exports__["default"] = (Writing);
 
 /***/ }),
 
@@ -1593,10 +609,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 
 /***/ }),
 
-/***/ "./client/routes.js":
-/*!**************************!*\
-  !*** ./client/routes.js ***!
-  \**************************/
+/***/ "./client/main.js":
+/*!************************!*\
+  !*** ./client/main.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1606,6 +622,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components */ "./client/components/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
+
 
 
 
@@ -1613,8 +631,68 @@ __webpack_require__.r(__webpack_exports__);
  * COMPONENT
  */
 
-var Routes = function Routes() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+var Main = function Main() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    sx: {
+      backgroundImage: 'url(images/background.png)',
+      backgroundAttachment: 'fixed',
+      backgroundSize: 'cover',
+      borderRadius: 4
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Flex"], {
+    justifyContent: "flex-start",
+    flexBasis: "auto"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1 / 8,
+    pl: 4
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Flex"], {
+    flexDirection: "column",
+    justifyContent: "flex-end"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1,
+    px: 1,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/home"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "images/logo.png"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1,
+    px: 1,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "images/about.png"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1,
+    px: 1,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/work"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "images/work.png"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1,
+    px: 1,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/writing"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "images/writing.png"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 1,
+    px: 1,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/photos"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "images/photos.png"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    width: 7 / 8,
+    pl: 6,
+    py: 2
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/home",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Home"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
@@ -1624,22 +702,19 @@ var Routes = function Routes() {
     path: "/work",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Work"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/blog",
-    component: _components__WEBPACK_IMPORTED_MODULE_2__["Blog"]
+    path: "/writing",
+    component: _components__WEBPACK_IMPORTED_MODULE_2__["Writing"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/photos",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Photos"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/msgme",
-    component: _components__WEBPACK_IMPORTED_MODULE_2__["MsgMe"]
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Home"]
-  }));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Contact"], null));
 }; // The `withRouter` wrapper makes sure that updates are not blocked
 // when the url changes
 
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Routes));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Main));
 
 /***/ }),
 
