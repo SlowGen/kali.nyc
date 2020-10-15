@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Box, Image} from 'rebass'
+import {Box, Image, Flex} from 'rebass'
 
 /**
  * COMPONENT
@@ -11,14 +11,16 @@ export const Home = () => {
   const [homeTile, setHomeTile] = useState(homePink)
 
   return (
-    <Box>
-      <Image
-        src={homeTile}
-        maxHeight={700}
-        onMouseEnter={() => setHomeTile(homePurple)}
-        onMouseLeave={() => setHomeTile(homePink)}
-      />
-    </Box>
+    <Flex justifyContent="center">
+      <Box alignContent="center" ml="-10%">
+        <Image
+          src={homeTile}
+          maxHeight={500}
+          onMouseEnter={() => setHomeTile(homePurple)}
+          onMouseLeave={() => setHomeTile(homePink)}
+        />
+      </Box>
+    </Flex>
   )
 }
 

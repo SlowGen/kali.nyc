@@ -5,8 +5,9 @@ import {Box, Flex, Image} from 'rebass'
 const Contact = () => {
   const height = 60
   return (
-    <Flex justifyContent="center">
-      <Box justifyContent="center" pb={4}>
+    <Flex justifyContent="center" justifyItems="center">
+      <Box />
+      <Box justifyContent="center" pb={4} flexWrap="wrap">
         <a href="mailto:info@kali.nyc">
           <Image src="images/email.png" maxHeight={height} />
         </a>

@@ -16,8 +16,13 @@ const Main = () => {
         borderRadius: 4
       }}
     >
-      <Flex justifyContent="flex-start" flexBasis="auto">
-        <Box width={1 / 8} pl={4}>
+      <Flex
+        justifyContent="center"
+        flexBasis="auto"
+        flexWrap="wrap"
+        // justifyItems="center"
+      >
+        <Box width={1 / 8} px=".01%">
           {/* left column */}
           <Flex flexDirection="column" justifyContent="flex-end">
             <Box width={1} px={1} py={2}>
@@ -48,7 +53,7 @@ const Main = () => {
           </Flex>
           {/* middle column */}
         </Box>
-        <Box width={7 / 8} pl={6} py={2}>
+        <Box width={7 / 8} px="5%" py="10%" justifyContent="center">
           <Switch>
             <Route path="/home" component={Home} />
             <Route path="/about" component={About} />
@@ -58,8 +63,10 @@ const Main = () => {
             <Route component={Home} />
           </Switch>
         </Box>
+        <Box justifyContent="center">
+          <Contact />
+        </Box>
       </Flex>
-      <Contact />
     </Box>
   )
 }

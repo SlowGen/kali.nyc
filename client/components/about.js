@@ -3,7 +3,7 @@ import {Box, Flex, Image} from 'rebass'
 
 const About = () => {
   return (
-    <Flex flexDirection="column">
+    <Flex flexDirection="column" flexWrap="wrap">
       <Box pb={6}>
         <Flex justifyItems="space-between">
           <Box width={2 / 3} px={4}>
