@@ -126,7 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    flexDirection: "column"
+    flexDirection: "column",
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     pb: 6
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
@@ -206,10 +207,12 @@ __webpack_require__.r(__webpack_exports__);
 var Contact = function Contact() {
   var height = 60;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     justifyContent: "center",
-    pb: 4
+    justifyItems: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    justifyContent: "center",
+    pb: 4,
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:info@kali.nyc"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -276,16 +279,21 @@ var Home = function Home() {
       homeTile = _useState2[0],
       setHomeTile = _useState2[1];
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    justifyContent: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    alignContent: "center",
+    ml: "-10%"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: homeTile,
-    maxHeight: 700,
+    maxHeight: 500,
     onMouseEnter: function onMouseEnter() {
       return setHomeTile(homePurple);
     },
     onMouseLeave: function onMouseLeave() {
       return setHomeTile(homePink);
     }
-  }));
+  })));
 };
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
@@ -640,11 +648,13 @@ var Main = function Main() {
       borderRadius: 4
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Flex"], {
-    justifyContent: "flex-start",
-    flexBasis: "auto"
+    justifyContent: "center",
+    flexBasis: "auto",
+    flexWrap: "wrap" // justifyItems="center"
+
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
     width: 1 / 8,
-    pl: 4
+    px: ".01%"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Flex"], {
     flexDirection: "column",
     justifyContent: "flex-end"
@@ -690,8 +700,9 @@ var Main = function Main() {
     src: "images/photos.png"
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
     width: 7 / 8,
-    pl: 6,
-    py: 2
+    px: "5%",
+    py: "10%",
+    justifyContent: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/home",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Home"]
@@ -709,7 +720,9 @@ var Main = function Main() {
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Photos"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Home"]
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Contact"], null));
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
+    justifyContent: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Contact"], null))));
 }; // The `withRouter` wrapper makes sure that updates are not blocked
 // when the url changes
 
