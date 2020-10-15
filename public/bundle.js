@@ -125,37 +125,46 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var About = function About() {
+  var maxHeight = 200;
+  var minHeight = 75;
+  var pxVal = '1%';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexDirection: "column",
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     pb: 6
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyItems: "space-between"
+    justifyItems: "space-between",
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 4
+    px: pxVal
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Raised in Oregon, Kali (a.k.a SlowGen) started her career in technology as the webmaster for local band", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://dandywarhols.com",
     target: "_blank",
     rel: "noopener noreferrer"
   }, "The Dandy Warhols"), ". After moving to NYC in 2000, she pursued a career in hospitality but found herself always drawn to her love of technology.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 4
+    px: pxVal,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/photos/ziakali.jpg",
-    maxHeight: 160
+    minHeight: minHeight,
+    maxHeight: maxHeight
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyItems: "space-between"
+    justifyItems: "space-between",
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 4
+    px: pxVal,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/gh-logo.svg",
-    maxWidth: 250
+    src: "images/otherlogos/GH.jpg",
+    minHeight: minHeight,
+    maxHeight: maxHeight
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 4
+    px: pxVal
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In 2019, Kali left her successful past behind and jumped head-first into coding. After weeks of teaching herself Python and data visualization, Kali sought out guidance from other engineers in the area and ultimately settled on applying for the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "http://gracehopper.com",
     target: "_blank",
@@ -165,18 +174,22 @@ var About = function About() {
     target: "_blank",
     rel: "noopener noreferrer"
   }, "Fullstack Academy"), ' ', "where she learned JavaScript and the NERD stack. Kali graduated in September 2020."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyItems: "space-between"
+    justifyItems: "space-between",
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 2 / 3,
-    px: 4
+    px: pxVal
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In her pre-Covid free time, Kali was an avid pool player competing in local leagues since 2007, winning several team championships and an MVP award. These days, she still keeps in touch with her pool friends and spends most of her time coding and you can find her enjoying life on the Upper West Side.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     width: 1 / 3,
-    px: 4
+    px: pxVal,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/photos/poolchamps.jpg",
-    maxHeight: 160
+    minHeight: minHeight,
+    maxHeight: maxHeight
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center"
+    justifyContent: "center",
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Kali is currently open to new opportunities, please feel free to", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.linkedin.com/in/kali-nfn/",
     target: "_blank",
