@@ -1,6 +1,8 @@
 import React from 'react'
 import {Box, Flex, Image} from 'rebass'
 
+//Component for /about section
+
 const About = () => {
   const maxHeight = 200
   const minHeight = 75

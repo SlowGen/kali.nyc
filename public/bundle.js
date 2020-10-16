@@ -122,7 +122,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.esm.js");
 
-
+ //Component for /about section
 
 var About = function About() {
   var maxHeight = 200;
@@ -376,8 +376,10 @@ var Photos = function Photos() {
     width: "90%",
     height: "100%"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slidez__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    frameBorder: 1,
     autoplay: true,
     enableKeyboard: true,
+    showArrows: false,
     useDotIndex: true,
     slideInterval: 5000,
     defaultIndex: 1,
@@ -560,12 +562,28 @@ var Work = function Work() {
 
 /* harmony default export */ __webpack_exports__["default"] = (Work); // this is a style template for adding more projects in the future:
 
-/* <hr />
-
-        <Flex justifyContent="center" flexWrap="wrap">
-          <Box width={1 / 2} px={2}></Box>
-          <Box width={1 / 2} px={2}></Box>
-        </Flex> */
+/*
+<hr />
+<Flex flexWrap="wrap">
+    <Box mx={margin} width={1}>
+      <Heading></Heading>
+      <Text></Text>
+    </Box>
+    <Box>
+      <Flex>
+        <Box width={4 / 5} mx={margin}>
+          <Image />
+        </Box>
+        <Box width={1 / 5} alignSelf="center">
+          <a>
+          <Image />
+          <Text />
+          </a>
+        </Box>
+      </Flex>
+    </Box>
+</Flex>
+*/
 
 /***/ }),
 

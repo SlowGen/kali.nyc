@@ -6,8 +6,10 @@ const Photos = () => {
   return (
     <Box width="90%" height="100%">
       <Slideshow
+        frameBorder={1}
         autoplay
         enableKeyboard
+        showArrows={false}
         useDotIndex
         slideInterval={5000}
         defaultIndex={1}

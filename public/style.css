@@ -17,27 +17,9 @@ label {
   display: block;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
-}
-
 form div {
   margin: 1em;
   display: inline-block;
-}
-
-#navdiv {
-  display: flex;
-  justify-content: center;
-}
-
-#navimg {
-  flex-grow: 1;
-}
-
-#navlogo {
-  flex-grow: 1;
 }
 
 h1 {

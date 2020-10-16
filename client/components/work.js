@@ -222,9 +222,25 @@ export default Work
 
 // this is a style template for adding more projects in the future:
 
-/* <hr />
-
-        <Flex justifyContent="center" flexWrap="wrap">
-          <Box width={1 / 2} px={2}></Box>
-          <Box width={1 / 2} px={2}></Box>
-        </Flex> */
+/*
+<hr />
+<Flex flexWrap="wrap">
+    <Box mx={margin} width={1}>
+      <Heading></Heading>
+      <Text></Text>
+    </Box>
+    <Box>
+      <Flex>
+        <Box width={4 / 5} mx={margin}>
+          <Image />
+        </Box>
+        <Box width={1 / 5} alignSelf="center">
+          <a>
+          <Image />
+          <Text />
+          </a>
+        </Box>
+      </Flex>
+    </Box>
+</Flex>
+*/
