@@ -410,52 +410,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Work = function Work() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
+  var margin = 0;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "Powersleep"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "Powersleep is an app developed as a submission for the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    mx: margin,
+    width: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "Powersleep"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    display: "inline-block",
+    maxWidth: "80%"
+  }, "Powersleep is an app developed as a submission for the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "2020.spaceappschallenge",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "2020 Space Apps Challenge"), ' ', "hosted by NASA. Our app utilizes Google Calendar and Oauth2 to find windows in a busy user's schedule and create sleep events. As part of a three person team, I was responsible for front end development and design. Powersleep was built using React in less than 48 hours."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    alignSelf: "end"
+  }, "2020 Space Apps Challenge"), ' ', "hosted by NASA. Our app utilizes Google Calendar and Oauth2 to find windows in a busy user's schedule and create sleep events. As part of a three person team, I was responsible for front end development and design. Powersleep was built using React in less than 48 hours.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 4 / 5,
+    mx: margin
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "images/photos/powersleep.jpg",
+    maxHeight: 200
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 1 / 5,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/WomenInPower/powerSleep",
     target: "_blank",
     rel: "noopener noreferrer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    alignSelf: "end",
     src: "images/otherlogos/Octocat.png",
     maxHeight: 75
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View code on Github!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/photos/powersleep.jpg"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    textAlign: "center",
+    fontSize: [1, 2, 3]
+  }, "Github")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
+    mx: margin,
+    width: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "ScavengARescape!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    display: "inline-block",
+    maxWidth: "80%"
+  }, "An augmented reality adventure game built using Viro Media and React Native. This app was my final presentation project at Grace Hopper. As part of a team of 4 developers, I developed each portal / level of the game, as well as customized the positioning and scale of the 3D graphics to provide for an immersive experience.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 4 / 5,
+    mx: margin
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    width: "400",
-    height: "225",
+    width: "90%",
+    height: "100%",
     src: "https://www.youtube.com/embed/VGoNcz_78Ns",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
     allowFullScreen: true
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "ScavengARescape!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "An augmented reality adventure game built using Viro Media and React Native. This app was my final presentation project at Grace Hopper. As part of a team of 4 developers, I developed each portal / level of the game, as well as customized the positioning and scale of the 3D graphics to provide for an immersive experience."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    alignSelf: "end"
+    width: 1 / 5,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/Capstone-E/ScavengAR-Escape",
     target: "_blank",
@@ -464,14 +471,26 @@ var Work = function Work() {
     alignSelf: "end",
     src: "images/otherlogos/Octocat.png",
     maxHeight: 75
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View code on Github!"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    textAlign: "center",
+    fontSize: [1, 2, 3]
+  }, "Github")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "EmoRocks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "EmoRocks is a mock e-commerce site developed as a first project in the final phase of boot camp. As a member of a team of four, we accomplished building this site in just over a week using React, React Hooks, Redux and PostgreSQL. I built the user and admin fuctionality into the site and contributed to the database design."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    alignSelf: "end"
+    mx: margin,
+    width: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "EmoRocks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    display: "inline-block",
+    maxWidth: "80%"
+  }, "EmoRocks is a mock e-commerce site developed as a first project in the final phase of boot camp. As a member of a team of four, we accomplished building this site in just over a week using React, React Hooks, Redux and PostgreSQL. I built the user and admin fuctionality into the site and contributed to the database design.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 4 / 5,
+    mx: margin
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "images/otherlogos/emorocks.jpg",
+    maxHeight: 100
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 1 / 5,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/WeBeShoppin/emoRock",
     target: "_blank",
@@ -480,25 +499,26 @@ var Work = function Work() {
     alignSelf: "end",
     src: "images/otherlogos/Octocat.png",
     maxHeight: 75
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View code on Github!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/otherlogos/emorocks.jpg"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    textAlign: "center",
+    fontSize: [1, 2, 3]
+  }, "Github")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
+    mx: margin,
+    width: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "PoolHouse"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    display: "inline-block",
+    maxWidth: "80%"
+  }, "PoolHouse is a light-weight mobile app that helps servers and bartenders calculate the distribution of tips amongst themselves. It was built as part of the Grace Hopper program's Stackathon over the course of a weekend. This app was my first exposure to mobile development and was built using React Native. The current code is still in development stage, but is one of the few projects that will continue on as a side project. Stay tuned for the release on Google Play!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 4 / 5,
+    mx: margin
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "images/otherlogos/splash.png",
-    maxHeight: 250
+    maxHeight: 150
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "PoolHouse"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "PoolHouse is a light-weight mobile app that helps servers and bartenders calculate the distribution of tips amongst themselves. It was built as part of the Grace Hopper program's Stackathon over the course of a weekend. This app was my first exposure to mobile development and was built using React Native. The current code is still in development stage, but is one of the few projects that will continue on as a side project. Stay tuned for the release on Google Play!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    alignSelf: "end"
+    width: 1 / 5,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/SlowGen/PoolHouse",
     target: "_blank",
@@ -507,26 +527,37 @@ var Work = function Work() {
     alignSelf: "end",
     src: "images/otherlogos/Octocat.png",
     maxHeight: 75
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "View code on Github!"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
-    justifyContent: "center",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    textAlign: "center",
+    fontSize: [1, 2, 3]
+  }, "Github")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "The Dandy Warhols"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "This site originated as a fan site created by myself and a fellow fan. After nearly two years of hosting the site on a university student server, we were asked to become the \"official\" site by the band. Ater procurring the domain, our first commercial site was born. Thanks to the Wayback Machine, the origins of my path to development live on."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    alignSelf: "end"
+    mx: margin,
+    width: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Heading"], null, "The Dandy Warhols"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    display: "inline-block",
+    maxWidth: "80%"
+  }, "This site originated as a fan site created by myself and a fellow fan. After nearly two years of hosting the site on a university student server, we were asked to become the \"official\" site by the band. Ater procurring the domain, our first commercial site was born. Thanks to the Wayback Machine, the origins of my path to development live on.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 4 / 5,
+    mx: margin
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "images/otherlogos/dandysplash.jpg",
+    maxHeight: 200
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    width: 1 / 5,
+    alignSelf: "center"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://web.archive.org/web/19990504204259/http://www.dandywarhols.com/welcome2.html",
     target: "_blank",
     rel: "noopener noreferrer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/otherlogos/waybackmachine.svg.png"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], null, "See the site on the Wayback Machine!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 1 / 2,
-    px: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: "images/otherlogos/dandysplash.jpg"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null)));
+    src: "images/otherlogos/waybackmachine.svg.png",
+    maxHeight: 200
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    textAlign: "center",
+    fontSize: [1, 2, 3]
+  }, "Wayback Machine")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work); // this is a style template for adding more projects in the future:
