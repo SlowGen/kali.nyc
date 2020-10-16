@@ -1,11 +1,12 @@
 import React from 'react'
-import {Box, Flex, Image} from 'rebass'
+import {Box, Image, Text} from 'rebass'
 
 const Writing = () => {
+  const margin = 0
   return (
-    <Flex justifyItems="space-between">
-      <Box width={2 / 3} px={2}>
-        <h1>Contactless Payments</h1>
+    <Box width={1} mx={margin}>
+      <Image src="images/photos/contactless.png" maxHeight={300} />
+      <Text display="inline-block" maxWidth="80%">
         <h2> Why it isn't truly contactless and what we can do to fix it</h2>
         <p>
           In the era of Covid-19, you hear the term “contactless” everywhere.
@@ -187,11 +188,8 @@ const Writing = () => {
           for about 10 years. I’m not holding my breath, but change will come.
           It has to.
         </p>
-      </Box>
-      <Box width={1 / 3} px={2}>
-        <Image src="images/photos/contactless.png" />
-      </Box>
-    </Flex>
+      </Text>
+    </Box>
   )
 }
 
