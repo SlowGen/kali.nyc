@@ -373,10 +373,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var Photos = function Photos() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-    width: 712,
-    height: 712,
-    pb: 2,
-    pt: 4
+    width: "90%",
+    height: "100%"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slidez__WEBPACK_IMPORTED_MODULE_2___default.a, {
     autoplay: true,
     enableKeyboard: true,
@@ -385,8 +383,8 @@ var Photos = function Photos() {
     defaultIndex: 1,
     slides: ['images/photos/selfie.jpg', 'images/photos/gridmat.jpg', 'images/photos/aliens.jpg', 'images/photos/bernie.jpg', 'images/photos/dirty.jpg', 'images/photos/east.jpg', 'images/photos/self.jpg', 'images/photos/north.jpg', 'images/photos/skylight.jpg', 'images/photos/turtlepond.jpg', 'images/photos/south.jpg', 'images/photos/two.jpg', 'images/photos/west.jpg'],
     effect: "fade",
-    width: 712,
-    height: 500
+    width: "75%",
+    height: "75%"
   }));
 };
 
@@ -689,13 +687,13 @@ var Main = function Main() {
       backgroundImage: 'url(images/background.png)',
       backgroundAttachment: 'fixed',
       backgroundSize: 'cover',
-      borderRadius: 4
+      borderRadius: 4,
+      minHeight: 900
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Flex"], {
     justifyContent: "center",
     flexBasis: "auto",
-    flexWrap: "wrap" // justifyItems="center"
-
+    flexWrap: "wrap"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_3__["Box"], {
     width: 1 / 8,
     px: ".01%"

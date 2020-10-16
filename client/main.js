@@ -13,15 +13,11 @@ const Main = () => {
         backgroundImage: 'url(images/background.png)',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
-        borderRadius: 4
+        borderRadius: 4,
+        minHeight: 900
       }}
     >
-      <Flex
-        justifyContent="center"
-        flexBasis="auto"
-        flexWrap="wrap"
-        // justifyItems="center"
-      >
+      <Flex justifyContent="center" flexBasis="auto" flexWrap="wrap">
         <Box width={1 / 8} px=".01%">
           {/* left column */}
           <Flex flexDirection="column" justifyContent="flex-end">

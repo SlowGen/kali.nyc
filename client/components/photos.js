@@ -4,7 +4,7 @@ import Slideshow from 'react-slidez'
 
 const Photos = () => {
   return (
-    <Box width={712} height={712} pb={2} pt={4}>
+    <Box width="90%" height="100%">
       <Slideshow
         autoplay
         enableKeyboard
@@ -27,8 +27,8 @@ const Photos = () => {
           'images/photos/west.jpg'
         ]}
         effect="fade"
-        width={712}
-        height={500}
+        width="75%"
+        height="75%"
       />
     </Box>
   )
