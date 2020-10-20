@@ -51,6 +51,9 @@ const Main = () => {
         </Box>
         <Box width={7 / 8} px="5%" py="10%" justifyContent="center">
           <Switch>
+            <Route path="images/:image">
+              <a href="/images/:image" />
+            </Route>
             <Route path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/work" component={Work} />
