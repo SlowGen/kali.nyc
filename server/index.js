@@ -3,6 +3,7 @@ const path = require('path')
 const express = require('express')
 const morgan = require('morgan')
 const compression = require('compression')
+const fs = require('fs')
 
 const PORT = process.env.PORT || 8080
 const app = express()
@@ -20,11 +21,25 @@ const createApp = () => {
   // compression middleware
   app.use(compression())
 
+  // // route for OG tags
+  // app.use('/og', require('./og'))
+
   // route for sending msgs
   app.post('/msgs', require('./msgs'))
 
   // static file-serving middleware
   app.use(express.static(path.join(__dirname, '..', 'public')))
+
+  app.use('/images/:image', (req, res, next) => {
+    const image = req.params.image
+    res.header('Content-Type', 'image/png')
+    fs.readFile(image, 'utf8', (err, data) => {
+      if (err) {
+        res.sendStatus(404)
+      }
+      res.send(data)
+    })
+  })
 
   // any remaining requests with an extension (.js, .css, etc.) send 404
   app.use((req, res, next) => {
