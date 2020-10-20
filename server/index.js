@@ -20,6 +20,9 @@ const createApp = () => {
   // compression middleware
   app.use(compression())
 
+  //route for images (must be open for OG meta tags)
+  app.use('/images', require('../public/images'))
+
   // route for sending msgs
   app.post('/msgs', require('./msgs'))
 
