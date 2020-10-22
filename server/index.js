@@ -21,9 +21,6 @@ const createApp = () => {
   // compression middleware
   app.use(compression())
 
-  // // route for OG tags
-  // app.use('/og', require('./og'))
-
   // route for sending msgs
   app.post('/msgs', require('./msgs'))
 
@@ -32,7 +29,7 @@ const createApp = () => {
 
   app.use('/images/:image', (req, res, next) => {
     const image = req.params.image
-    res.header('Content-Type', 'image/png')
+    res.setHeader('Content-Type', 'image/png')
     fs.readFile(image, 'utf8', (err, data) => {
       if (err) {
         res.sendStatus(404)
